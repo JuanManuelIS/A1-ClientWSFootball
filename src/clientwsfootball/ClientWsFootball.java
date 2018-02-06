@@ -11,8 +11,8 @@ import java.util.List;
 public class ClientWsFootball {
 
     public static void main(String[] args) {
-            //System.out.println("Yellow Cards: " + yellowCardsTotal());
-            //System.out.println("All Defenders in Spain: " + allDefenders("spain").getString());
+            System.out.println("Yellow Cards: " + yellowCardsTotal());
+            System.out.println("All Defenders in Spain: " + allDefenders("spain").getString());
             List <TCountryInfo> countries = countryNames(true).getTCountryInfo();
             
             for(TCountryInfo i : countries){
